@@ -1,0 +1,16 @@
+# Default behavior
+# Configuration for git attributes
+* text=auto
+
+dist/* linguist-vendored
+
+*.bat text eol=crlf 
+public/** linguist-vendored
+*.html linguist-vendored
+
+*.md linguist-documentation
+
+*.json linguist-detectable=false
+
+*.tsx linguist-detectable
+*.png binary
